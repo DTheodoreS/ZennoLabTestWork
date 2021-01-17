@@ -149,7 +149,7 @@ export default {
     onSubmit(event) {
       event.preventDefault();
       if (!this.isValid()) {
-        //return;
+        return;
       }
 
       var dataset = this.getDataset();
